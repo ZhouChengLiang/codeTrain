@@ -1,4 +1,6 @@
-package org.example;
+package org.example.day0319;
+
+import org.example.TreeNode;
 
 /**
  * 二叉树的最大深度
