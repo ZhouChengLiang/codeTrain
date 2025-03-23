@@ -1,6 +1,6 @@
 package org.example.day0319;
 
-import org.example.ListNode;
+import org.example.day0319.ListNode;
 
 /**
  * 相交链表

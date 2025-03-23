@@ -1,6 +1,6 @@
 package org.example.day0319;
 
-import org.example.TreeNode;
+import org.example.day0319.TreeNode;
 
 public class SolutionDeepestLeavesSum {
     int maxDepth = 0;

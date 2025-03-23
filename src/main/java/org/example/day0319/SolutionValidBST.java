@@ -1,6 +1,6 @@
 package org.example.day0319;
 
-import org.example.TreeNode;
+import org.example.day0319.TreeNode;
 
 /**
  * 验证二叉搜索树
