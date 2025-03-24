@@ -19,6 +19,12 @@ import java.util.Stack;
 public class SolutionCalculate {
     Stack<Character> ops = new Stack<>();
     Stack<Integer> stack = new Stack<>();
+
+    public static void main(String[] args) {
+        SolutionCalculate sol = new SolutionCalculate();
+        System.out.println(sol.calculate("2048"));
+    }
+
     public int calculate(String s) {
         s+= " ";
         String number = "";
@@ -109,10 +115,5 @@ public class SolutionCalculate {
                 return x / y;
         }
         return 0;
-    }
-
-    public static void main(String[] args) {
-        SolutionCalculate sol = new SolutionCalculate();
-        System.out.println(sol.calculate("2048"));
     }
 }
