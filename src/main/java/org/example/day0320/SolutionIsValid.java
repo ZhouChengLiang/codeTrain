@@ -4,6 +4,8 @@ import java.util.Stack;
 
 /**
  * 有效的括号
+ *  验证括号的有效性
+ *  ((())) ([])
  * leetcode 20题
  * @author zhouchengliang
  */

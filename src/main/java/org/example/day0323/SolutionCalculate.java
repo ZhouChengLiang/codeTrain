@@ -1,7 +1,5 @@
 package org.example.day0323;
 
-import jdk.nashorn.internal.runtime.regexp.joni.ast.StringNode;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
