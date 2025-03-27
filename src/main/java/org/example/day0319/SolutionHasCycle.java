@@ -21,4 +21,14 @@ public class SolutionHasCycle {
         return false;
     }
 
+    public static void main(String[] args) {
+        SolutionHasCycle solution = new SolutionHasCycle();
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(3);
+        head.next.next.next = head;
+
+        System.out.println(solution.hasCycle(head));
+    }
+
 }

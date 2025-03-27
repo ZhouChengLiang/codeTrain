@@ -31,4 +31,14 @@ public class SolutionDeepestLeavesSum {
         // 递归遍历右子树
         dfs(node.right, depth + 1);
     }
+
+    public static void main(String[] args) {
+        SolutionDeepestLeavesSum solution = new SolutionDeepestLeavesSum();
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(5);
+        System.out.println(solution.deepestLeavesSum(root));
+    }
 }
